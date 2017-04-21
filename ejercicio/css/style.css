@@ -1,0 +1,77 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkorange;
+    
+}
+
+li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+     font: bold 90% monospace;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+h1{
+    color: darkorange;
+     font: bold 200% monospace;
+}
+h4{
+     font: bold 90% monospace;
+}
+a{
+     font: bold 90% monospace;
+}
+p{
+     font: bold 120% monospace;
+     text-align : justify;
+}
+body{
+    margin:100px 200px 50px 200px;
+    background-color: gray;
+}
+#contenido {
+    margin:0 auto;
+    width:auto;
+    
+}
+#contenido_izquierda {
+    width:90%;
+    float:left;
+    height: 100%;
+    background-color: white;
+}
+#contenido_derecha {
+    width:10%;
+    float:left;
+    height: 60%;
+    background-color: white;
+    
+}
+#contenido_derecha ul{
+    background-color:white;
+    list-style-type: none;
+    padding: 5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#contenido_derecha li{
+    color: darkorange; /* Black text color */
+    padding: 5px; /* Add some padding */
+    text-decoration: none; 
+    margin: 0px 10px 0px;
+}
