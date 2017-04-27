@@ -1,77 +1,87 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: darkorange;
-    
+body
+{
+    padding: 5px 250px 10px 250px;
+    background: #545454;
 }
-
-li {
+header
+{
+    color: #FFFFFF;
+    font: 110% "Calibri light";
+    line-height: 1px;
+}
+h2
+{
+    font: 100% "Calibri light"; 
+    line-height: 1px;
+}
+#menu
+{
+    background: #FF8000 ;
     float: left;
+    width: 100%;
+    font: bold 110% monospace;
 }
-
-#menu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-     font: bold 90% monospace;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
-h1{
-    color: darkorange;
-     font: bold 200% monospace;
-}
-h4{
-     font: bold 90% monospace;
-}
-a{
-     font: bold 90% monospace;
-}
-p{
-     font: bold 120% monospace;
-     text-align : justify;
-}
-body{
-    margin:100px 200px 50px 200px;
-    background-color: gray;
-}
-#contenido {
-    margin:0 auto;
-    width:auto;
-    
-}
-#contenido_izquierda {
-    width:90%;
-    float:left;
-    height: 100%;
-    background-color: white;
-}
-#contenido_derecha {
-    width:10%;
-    float:left;
-    height: 60%;
-    background-color: white;
-    
-}
-#contenido_derecha ul{
-    background-color:white;
-    list-style-type: none;
-    padding: 5px;
+#menu li
+{
+    display: inline-block;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    
+    padding: 20px 10px 0px 0px;
+    color:#FFFFFF;
+
 }
-#contenido_derecha li{
-    color: darkorange; /* Black text color */
-    padding: 5px; /* Add some padding */
-    text-decoration: none; 
-    margin: 0px 10px 0px;
+#menu li:hover
+{
+    background-color: #383838;
+}
+p
+{
+    text-align: justify;
+}
+#lado-izquierdo
+{
+    float: left;
+    width: 80%;
+    background: #FFFFFF;
+    font: bold 100% monospace;
+}
+#lado-izquierdo h2
+{
+    color: #FF8000;
+    font-size: 160%;
+}
+#lado-izquierdo article
+{
+    padding: 0px 30px;
+}
+#lado-derecho
+{
+    float: left;
+    width: 20%;
+    height: 497px;
+    background: #FFFFFF; 
+    font: bold 100% monospace;
+
+}
+#lado-derecho ul
+{
+    list-style-type: none;
+}
+#lado-derecho li
+{
+    color: #FF8000;
+    padding: 0px 10px ;
+}
+#pie-pagina
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font: 100% "Calibri light";
+    padding: 10px 0px 10px 0px;
+}
+#pie-pagina u
+{
+    color: #FF8000;
+    font: 100% "Calibri light";
 }
